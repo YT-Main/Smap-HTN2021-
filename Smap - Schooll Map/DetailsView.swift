@@ -46,7 +46,7 @@ struct DetailsView: View {
                     .font(.largeTitle)
                     .bold()
                 HStack{
-                    Image("dual-profile")
+                    Image("person")
                         .resizable()
                         .frame(width: 60, height: 55)
                     if locationData[location].friends[0] != "none"{

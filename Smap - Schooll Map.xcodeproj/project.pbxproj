@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531DE50226F734A600F19F19 /* Smap___Schooll_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE50126F734A600F19F19 /* Smap___Schooll_MapApp.swift */; };
+		531DE50626F734AB00F19F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531DE50526F734AB00F19F19 /* Assets.xcassets */; };
+		531DE50926F734AB00F19F19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531DE50826F734AB00F19F19 /* Preview Assets.xcassets */; };
+		531DE51426F734AB00F19F19 /* Smap___Schooll_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE51326F734AB00F19F19 /* Smap___Schooll_MapTests.swift */; };
+		531DE51F26F734AB00F19F19 /* Smap___Schooll_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE51E26F734AB00F19F19 /* Smap___Schooll_MapUITests.swift */; };
+		531DE53626F734F200F19F19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE53226F734F200F19F19 /* ContentView.swift */; };
+		531DE53726F734F200F19F19 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE53326F734F200F19F19 /* CourseView.swift */; };
+		531DE53826F734F200F19F19 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE53426F734F200F19F19 /* ProfileView.swift */; };
+		531DE53926F734F200F19F19 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE53526F734F200F19F19 /* DetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531DE51026F734AB00F19F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531DE4F626F734A600F19F19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531DE4FD26F734A600F19F19;
+			remoteInfo = "Smap - Schooll Map";
+		};
+		531DE51B26F734AB00F19F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531DE4F626F734A600F19F19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531DE4FD26F734A600F19F19;
+			remoteInfo = "Smap - Schooll Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		531DE4FE26F734A600F19F19 /* Smap - Schooll Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smap - Schooll Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531DE50126F734A600F19F19 /* Smap___Schooll_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smap___Schooll_MapApp.swift"; sourceTree = "<group>"; };
+		531DE50526F734AB00F19F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531DE50826F734AB00F19F19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		531DE50A26F734AB00F19F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531DE50F26F734AB00F19F19 /* Smap - Schooll MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smap - Schooll MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531DE51326F734AB00F19F19 /* Smap___Schooll_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smap___Schooll_MapTests.swift"; sourceTree = "<group>"; };
+		531DE51526F734AB00F19F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531DE51A26F734AB00F19F19 /* Smap - Schooll MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smap - Schooll MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531DE51E26F734AB00F19F19 /* Smap___Schooll_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smap___Schooll_MapUITests.swift"; sourceTree = "<group>"; };
+		531DE52026F734AB00F19F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531DE53226F734F200F19F19 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		531DE53326F734F200F19F19 /* CourseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		531DE53426F734F200F19F19 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		531DE53526F734F200F19F19 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531DE4FB26F734A600F19F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE50C26F734AB00F19F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE51726F734AB00F19F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531DE4F526F734A600F19F19 = {
+			isa = PBXGroup;
+			children = (
+				531DE50026F734A600F19F19 /* Smap - Schooll Map */,
+				531DE51226F734AB00F19F19 /* Smap - Schooll MapTests */,
+				531DE51D26F734AB00F19F19 /* Smap - Schooll MapUITests */,
+				531DE4FF26F734A600F19F19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531DE4FF26F734A600F19F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531DE4FE26F734A600F19F19 /* Smap - Schooll Map.app */,
+				531DE50F26F734AB00F19F19 /* Smap - Schooll MapTests.xctest */,
+				531DE51A26F734AB00F19F19 /* Smap - Schooll MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		531DE50026F734A600F19F19 /* Smap - Schooll Map */ = {
+			isa = PBXGroup;
+			children = (
+				531DE53226F734F200F19F19 /* ContentView.swift */,
+				531DE53326F734F200F19F19 /* CourseView.swift */,
+				531DE53526F734F200F19F19 /* DetailsView.swift */,
+				531DE53426F734F200F19F19 /* ProfileView.swift */,
+				531DE50126F734A600F19F19 /* Smap___Schooll_MapApp.swift */,
+				531DE50526F734AB00F19F19 /* Assets.xcassets */,
+				531DE50A26F734AB00F19F19 /* Info.plist */,
+				531DE50726F734AB00F19F19 /* Preview Content */,
+			);
+			path = "Smap - Schooll Map";
+			sourceTree = "<group>";
+		};
+		531DE50726F734AB00F19F19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				531DE50826F734AB00F19F19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		531DE51226F734AB00F19F19 /* Smap - Schooll MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				531DE51326F734AB00F19F19 /* Smap___Schooll_MapTests.swift */,
+				531DE51526F734AB00F19F19 /* Info.plist */,
+			);
+			path = "Smap - Schooll MapTests";
+			sourceTree = "<group>";
+		};
+		531DE51D26F734AB00F19F19 /* Smap - Schooll MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				531DE51E26F734AB00F19F19 /* Smap___Schooll_MapUITests.swift */,
+				531DE52026F734AB00F19F19 /* Info.plist */,
+			);
+			path = "Smap - Schooll MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531DE4FD26F734A600F19F19 /* Smap - Schooll Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531DE52326F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll Map" */;
+			buildPhases = (
+				531DE4FA26F734A600F19F19 /* Sources */,
+				531DE4FB26F734A600F19F19 /* Frameworks */,
+				531DE4FC26F734A600F19F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smap - Schooll Map";
+			productName = "Smap - Schooll Map";
+			productReference = 531DE4FE26F734A600F19F19 /* Smap - Schooll Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		531DE50E26F734AB00F19F19 /* Smap - Schooll MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531DE52626F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll MapTests" */;
+			buildPhases = (
+				531DE50B26F734AB00F19F19 /* Sources */,
+				531DE50C26F734AB00F19F19 /* Frameworks */,
+				531DE50D26F734AB00F19F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531DE51126F734AB00F19F19 /* PBXTargetDependency */,
+			);
+			name = "Smap - Schooll MapTests";
+			productName = "Smap - Schooll MapTests";
+			productReference = 531DE50F26F734AB00F19F19 /* Smap - Schooll MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		531DE51926F734AB00F19F19 /* Smap - Schooll MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531DE52926F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll MapUITests" */;
+			buildPhases = (
+				531DE51626F734AB00F19F19 /* Sources */,
+				531DE51726F734AB00F19F19 /* Frameworks */,
+				531DE51826F734AB00F19F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531DE51C26F734AB00F19F19 /* PBXTargetDependency */,
+			);
+			name = "Smap - Schooll MapUITests";
+			productName = "Smap - Schooll MapUITests";
+			productReference = 531DE51A26F734AB00F19F19 /* Smap - Schooll MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531DE4F626F734A600F19F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					531DE4FD26F734A600F19F19 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					531DE50E26F734AB00F19F19 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 531DE4FD26F734A600F19F19;
+					};
+					531DE51926F734AB00F19F19 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 531DE4FD26F734A600F19F19;
+					};
+				};
+			};
+			buildConfigurationList = 531DE4F926F734A600F19F19 /* Build configuration list for PBXProject "Smap - Schooll Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 531DE4F526F734A600F19F19;
+			productRefGroup = 531DE4FF26F734A600F19F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531DE4FD26F734A600F19F19 /* Smap - Schooll Map */,
+				531DE50E26F734AB00F19F19 /* Smap - Schooll MapTests */,
+				531DE51926F734AB00F19F19 /* Smap - Schooll MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531DE4FC26F734A600F19F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531DE50926F734AB00F19F19 /* Preview Assets.xcassets in Resources */,
+				531DE50626F734AB00F19F19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE50D26F734AB00F19F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE51826F734AB00F19F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531DE4FA26F734A600F19F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531DE53826F734F200F19F19 /* ProfileView.swift in Sources */,
+				531DE53926F734F200F19F19 /* DetailsView.swift in Sources */,
+				531DE53626F734F200F19F19 /* ContentView.swift in Sources */,
+				531DE50226F734A600F19F19 /* Smap___Schooll_MapApp.swift in Sources */,
+				531DE53726F734F200F19F19 /* CourseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE50B26F734AB00F19F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531DE51426F734AB00F19F19 /* Smap___Schooll_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531DE51626F734AB00F19F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531DE51F26F734AB00F19F19 /* Smap___Schooll_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531DE51126F734AB00F19F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531DE4FD26F734A600F19F19 /* Smap - Schooll Map */;
+			targetProxy = 531DE51026F734AB00F19F19 /* PBXContainerItemProxy */;
+		};
+		531DE51C26F734AB00F19F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531DE4FD26F734A600F19F19 /* Smap - Schooll Map */;
+			targetProxy = 531DE51B26F734AB00F19F19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		531DE52126F734AB00F19F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		531DE52226F734AB00F19F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531DE52426F734AB00F19F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smap - Schooll Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smap - Schooll Map/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531DE52526F734AB00F19F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smap - Schooll Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smap - Schooll Map/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		531DE52726F734AB00F19F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				INFOPLIST_FILE = "Smap - Schooll MapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smap - Schooll Map.app/Smap - Schooll Map";
+			};
+			name = Debug;
+		};
+		531DE52826F734AB00F19F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				INFOPLIST_FILE = "Smap - Schooll MapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smap - Schooll Map.app/Smap - Schooll Map";
+			};
+			name = Release;
+		};
+		531DE52A26F734AB00F19F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				INFOPLIST_FILE = "Smap - Schooll MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smap - Schooll Map";
+			};
+			name = Debug;
+		};
+		531DE52B26F734AB00F19F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CSA69MAMG;
+				INFOPLIST_FILE = "Smap - Schooll MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yt.Smap---Schooll-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smap - Schooll Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531DE4F926F734A600F19F19 /* Build configuration list for PBXProject "Smap - Schooll Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531DE52126F734AB00F19F19 /* Debug */,
+				531DE52226F734AB00F19F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531DE52326F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531DE52426F734AB00F19F19 /* Debug */,
+				531DE52526F734AB00F19F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531DE52626F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531DE52726F734AB00F19F19 /* Debug */,
+				531DE52826F734AB00F19F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531DE52926F734AB00F19F19 /* Build configuration list for PBXNativeTarget "Smap - Schooll MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531DE52A26F734AB00F19F19 /* Debug */,
+				531DE52B26F734AB00F19F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531DE4F626F734A600F19F19 /* Project object */;
+}

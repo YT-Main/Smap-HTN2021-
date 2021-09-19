@@ -14,7 +14,6 @@ struct CourseDetail: Identifiable{
     var email: String
     var page: String
     var todo: [String]
-    
 }
 
 struct CourseView: View {
@@ -24,9 +23,9 @@ struct CourseView: View {
     @State var courseID: Int
     
     var courses = [
-        CourseDetail(name: "MATH 135", description: "Introduction to math through proofs", email: "math135@uwaterloo.ca", page: "https://learn.uwaterloo.ca/d2l/home/709642", todo: ["Written assignment 2", "Mobius Quiz 4", "Mobius Quiz 5", "Mobius Quiz 6"]),
-        CourseDetail(name: "MATH 137", description: "Introduction to math through calculus", email: "math137@uwaterloo.ca", page: "https://learn.uwaterloo.ca/d2l/home/709966", todo: ["Written assignment 2", "Mobius Quiz 2"]),
-        CourseDetail(name: "CS 135", description: "Introduction to cs through raket", email: "cs135@uwaterloo.ca", page: "https://student.cs.uwaterloo.ca/~cs135/", todo: ["Written assignment 2", "Mobius Quiz 2"])
+        CourseDetail(name: "MATH 135", description: "Introduction to Math through proofs", email: "math135@uwaterloo.ca", page: "https://learn.uwaterloo.ca/d2l/home/709642", todo: ["Written assignment 2", "Mobius Quiz 4", "Mobius Quiz 5", "Mobius Quiz 6"]),
+        CourseDetail(name: "MATH 137", description: "Introduction to Math through Calculus", email: "math137@uwaterloo.ca", page: "https://learn.uwaterloo.ca/d2l/home/709966", todo: ["Written assignment 2", "Mobius Quiz 2"]),
+        CourseDetail(name: "CS 135", description: "Introduction to CS through Raket", email: "cs135@uwaterloo.ca", page: "https://student.cs.uwaterloo.ca/~cs135/", todo: ["Written assignment 2", "Mobius Quiz 2"])
     ]
     
     var locationData = [
@@ -49,8 +48,8 @@ struct CourseView: View {
                 .font(.largeTitle)
                 .bold()
             Text(courses[courseID].description)
-            
-            VStack{
+            Spacer(minLength: 20)
+            VStack(alignment: .leading){
                 ForEach(courses[courseID].todo, id: \.self){thing in
                     HStack{
                         CheckBox(checked: false)
@@ -58,7 +57,8 @@ struct CourseView: View {
                     }
                 }
             }
-            Text("Study Spots")
+            Spacer(minLength: 50)
+            Text("Study Spots").font(.title2)
             List{
                 ForEach(locationData){ location in
                     NavigationLink(destination: DetailsView(location: location.num), label: {
@@ -83,7 +83,6 @@ struct CourseView: View {
                                 else{
                                     Image(systemName: "bolt.fill").imageScale(.small).foregroundColor(.red)
                                 }
-                                
                                 Image(systemName: "speaker.slash").imageScale(.small)
                             }
 
